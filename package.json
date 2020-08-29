@@ -1,0 +1,11 @@
+{
+    "name": "watershed-data",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "axios": "^0.20.0",
+        "cli-spinner": "^0.2.10",
+        "dotenv": "^8.2.0",
+        "fs": "0.0.1-security"
+    }
+}
