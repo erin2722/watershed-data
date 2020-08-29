@@ -2,6 +2,9 @@
     "name": "watershed-data",
     "version": "0.1.0",
     "private": true,
+    "scripts": {
+        "setup": "npm i && touch .env && touch output.csv && echo APP_KEY=<YOUR APP KEY HERE> > .env && echo. >> .env && echo ACCESS_TOKEN=<YOUR ACCESS TOKEN HERE> >> .env"
+    },
     "dependencies": {
         "axios": "^0.20.0",
         "cli-spinner": "^0.2.10",
